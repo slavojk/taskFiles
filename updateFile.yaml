@@ -10,7 +10,7 @@ outputs:
 run:
   path: /bin/sh
   args: 
-    - c
+    - -c
     - |
       ls -al
       date >> ./helm-chart/file
