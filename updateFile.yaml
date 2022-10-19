@@ -5,7 +5,7 @@ image_resource:
     repository: alpine
 inputs:
   - name: helm-chart
-outpus:
+outputs:
   - name: helm-chart
 run:
   path: /bin/sh
