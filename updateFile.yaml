@@ -4,9 +4,9 @@ image_resource:
   source:
     repository: alpine
 inputs:
-  - name: helm-chart
+  - name: helm-chart-ingress
 outputs:
-  - name: helm-chart
+  - name: helm-chart-ingress
 run:
   path: /bin/sh
   args: 
