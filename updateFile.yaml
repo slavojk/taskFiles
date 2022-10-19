@@ -2,7 +2,7 @@ platform: linux
 image_resource:
   type: registry-image
   source:
-    repository: busybox
+    repository: alpine
 inputs:
   - name: helm-chart
 outpus:
@@ -10,7 +10,7 @@ outpus:
 run:
   path: /bin/sh
   args: 
-    - cx
+    - c
     - |
       ls -al
       date >> ./helm-chart/file
