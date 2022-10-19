@@ -12,7 +12,7 @@ run:
   args: 
     - -c
     - |
-      ls -al
+      ls -al ./helm-chart-ingress
       date >> ./helm-chart-ingress/file
       echo "adding in taskfile" >> ./helm-chart-ingress/file
       echo "------------------" >> ./helm-chart-ingress/file
