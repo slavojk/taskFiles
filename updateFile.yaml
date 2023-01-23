@@ -15,7 +15,7 @@ run:
       echo "ls -al ./helm-chart"
       ls -al ./helm-chart
       date >> ./helm-chart/file
-      echo "adding in taskfile-" >> ./helm-chart/file
+      echo "adding in taskfile->" >> ./helm-chart/file
       echo "-------------------" >> ./helm-chart/file
       echo "content of ./helm-chart/file"
       cat ./helm-chart/file
