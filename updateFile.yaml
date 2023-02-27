@@ -13,6 +13,7 @@ run:
     - -c
     - |
       echo "ls -al ./helm-chart"
+      date
       ls -al ./helm-chart
       date >> ./helm-chart/file
       echo "adding in taskfile->" >> ./helm-chart/file
